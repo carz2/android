@@ -14,7 +14,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="carz2/android_build" remote="github" revision="gingerbread" >
+  <project path="build" name="carz2/android_build" remote="github" revision="6355sapphire" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
