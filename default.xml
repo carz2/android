@@ -33,7 +33,6 @@
   <project path="device/geeksphone/zero" name="CyanogenMod/android_device_geeksphone_zero" remote="github" />
   <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" remote="github" />
   <project path="device/huawei/ideos" name="CyanogenMod/android_device_huawei_ideos" remote="github" />
-  <project path="device/huawei/u8220" name="CyanogenMod/android_device_huawei_u8220" remote="github" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
@@ -180,7 +179,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/gpsshim" name="carz2/GB-hardware_qcom_gpsshim" remote="github" revision="gingerbread" />
+  <project path="hardware/gpsshim" name="carz2/GB-hardware_qcom_gpsshim" remote="github" revision="6355sapphire" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
