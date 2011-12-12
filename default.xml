@@ -237,6 +237,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/cm" name="carz2/android_vendor_cm" remote="github" revision="carz" />
 
-  <project path="android" name="carz2/ICS-android" />
+  <project path="android" name="carz2/ICS-android" remote="github" revision="carz" />
 
 </manifest>
