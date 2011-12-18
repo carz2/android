@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="refs/tags/android-4.0.1_r1.2"
+  <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -19,7 +19,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="carz2/android_platform_dalvik" remote="github" revision="carz" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
