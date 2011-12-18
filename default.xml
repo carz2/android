@@ -240,7 +240,6 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
-  <project path="vendor/cm" name="carz2/android_vendor_cm" remote="github" revision="carz" />
 
   <project path="android" name="carz2/ICS-android" remote="github" revision="carz" />
 
