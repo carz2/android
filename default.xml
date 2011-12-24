@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="carz2/android_build" remote="github" revision="cca14a88a5254008d3accd7fb4feec8f6c5fdb55" >
+  <project path="build" name="carz2/android_build" remote="github" revision="ics4.0.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -235,7 +235,7 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="carz2/android_system_core" remote="github" revision="0cb1a4211c908ed9dcb4173f8596b50b26b3e3c4" />
+  <project path="system/core" name="carz2/android_system_core" remote="github" revision="ics4.0.1" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
