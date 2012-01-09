@@ -50,7 +50,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="carz2/android_external_busybox" remote="github" revision="ics"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/chromium" name="platform/external/chromium" revision="android-4.0.3_r1"/>
+  <project path="external/chromium" name="platform/external/chromium" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/collada" name="platform/external/collada" />
   <project path="external/dbus" name="platform/external/dbus" />
