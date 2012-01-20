@@ -186,7 +186,7 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="carz2/android_packages_apps_Contacts" remote="github" revision="ics4.0.1" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/apps/DSPManager" name="carz2/android_packages_apps_DSPManager" remote="github" revision="ics" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-4.0.3_r1" />
@@ -201,7 +201,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="carz2/android_packages_apps_Phone" remote="github" revision="ics4.0.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
