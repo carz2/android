@@ -42,7 +42,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="ics" />
+  <project path="external/bash" name="carz2/android_external_bash" remote="github" revision="carz" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
@@ -50,7 +50,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="ics"/>
+  <project path="external/busybox" name="carz2/android_external_busybox" remote="github" revision="carz"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clang" name="platform/external/clang" />
@@ -96,7 +96,7 @@
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
-  <project path="external/libncurses" name="carz2/android_external_libncurses" remote="github" revision="ics"/>
+  <project path="external/libncurses" name="carz2/android_external_libncurses" remote="github" revision="carz"/>
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -154,7 +154,7 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="master" />
+  <project path="external/vim" name="carz2/android_external_vim" remote="github" revision="carz" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/base" name="carz2/android_frameworks_base" remote="github" revision="carz" />
@@ -214,7 +214,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="ics" />
+  <project path="packages/apps/Superuser" name="carz2/android_packages_apps_Superuser" remote="github" revision="carz" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -246,7 +246,7 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
+  <project path="system/vold" name="carz2/android_system_vold" remote="github" revision="carz" />
 
   <project path="android" name="carz2/android" remote="github" revision="carz" />
 
