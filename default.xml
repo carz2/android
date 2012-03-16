@@ -246,7 +246,7 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/su" name="carz2/android_system_su" remote="github" revision="carz" />
+  <project path="system/su" name="carz2/android_system_su" remote="github" revision="ics" />
   <project path="system/vold" name="carz2/android_system_vold" remote="github" revision="carz" />
 
   <project path="android" name="carz2/android" remote="github" revision="carz" />
