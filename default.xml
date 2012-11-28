@@ -7,11 +7,11 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="refs/tags/android-4.2_r1"
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="carz2/android_build" remote="github" revision="jb-4.2_r1" >
+  <project path="build" name="carz2/android_build" remote="github" revision="jb-mr1-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -20,7 +20,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="carz2/android_platform_dalvik" remote="github" revision="jb-4.2_r1"/>
+  <project path="dalvik" name="carz2/android_platform_dalvik" remote="github" revision="jb-mr1-release"/>
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
@@ -34,7 +34,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="carz2/android_device_samsung_crespo" remote="github" revision="jb-4.2_r1" />
+  <project path="device/samsung/crespo" name="carz2/android_device_samsung_crespo" remote="github" revision="jb-mr1-release" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device" />
@@ -53,13 +53,13 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="carz2/android_external_bash" remote="github" revision="jb-4.2_r1" />
+  <project path="external/bash" name="carz2/android_external_bash" remote="github" revision="jb-mr1-release" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="carz2/android_external_busybox" remote="github" revision="jb-4.2_r1"/>
+  <project path="external/busybox" name="carz2/android_external_busybox" remote="github" revision="jb-mr1-release"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -122,7 +122,7 @@
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libncurses" name="carz2/android_external_libncurses" remote="github" revision="jb" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
-  <project path="external/libnfc-nxp" name="carz2/android_external_libnfc-nxp" remote="github" revision="jb-4.2_r1" />
+  <project path="external/libnfc-nxp" name="carz2/android_external_libnfc-nxp" remote="github" revision="jb-mr1-release" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -142,7 +142,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
-  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="jellybean"/>
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="mr1-staging"/>
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
@@ -161,7 +161,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="jellybean"/>
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="mr1-staging"/>
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
@@ -206,7 +206,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="carz2/android_frameworks_base" remote="github" revision="jb-4.2_r1" />
+  <project path="frameworks/base" name="carz2/android_frameworks_base" remote="github" revision="jb-mr1-release" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -215,7 +215,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="carz2/android_frameworks_native" remote="github" revision="jb-4.2_r1" />
+  <project path="frameworks/native" name="carz2/android_frameworks_native" remote="github" revision="jb-mr1-release" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -232,7 +232,7 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="carz2/android_hardware_libhardware" remote ="github" revision="jb-4.2_r1" />
+  <project path="hardware/libhardware" name="carz2/android_hardware_libhardware" remote ="github" revision="jb-mr1-release" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
@@ -240,51 +240,51 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="carz2/android_libcore" remote="github" revision="jb-4.2_r1" />
+  <project path="libcore" name="carz2/android_libcore" remote="github" revision="jb-mr1-release" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="carz2/android_packages_apps_Browser" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/apps/Browser" name="carz2/android_packages_apps_Browser" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="carz2/android_packages_apps_Camera" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/apps/Camera" name="carz2/android_packages_apps_Camera" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="carz2/android_packages_apps_Contacts" remote="github" revision="jb-4.2_r1" />
-  <project path="packages/apps/DeskClock" name="carz2/android_packages_apps_DeskClock" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/apps/Contacts" name="carz2/android_packages_apps_Contacts" remote="github" revision="jb-mr1-release" />
+  <project path="packages/apps/DeskClock" name="carz2/android_packages_apps_DeskClock" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/DSPManager" name="carz2/android_packages_apps_DSPManager" remote="github" revision="jb" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/FileManager" name="carz2/android_packages_apps_FileManager" remote="github" revision="jb" />
+  <project path="packages/apps/FileManager" name="carz2/android_packages_apps_FileManager" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="carz2/android_packages_apps_Launcher2" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/apps/Launcher2" name="carz2/android_packages_apps_Launcher2" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="carz2/android_packages_apps_Mms" remote="github" revision ="jb-4.2_r1" />
+  <project path="packages/apps/Mms" name="carz2/android_packages_apps_Mms" remote="github" revision ="jb-mr1-release" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="carz2/android_packages_apps_Nfc" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/apps/Nfc" name="carz2/android_packages_apps_Nfc" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="carz2/android_packages_apps_Phone" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/apps/Phone" name="carz2/android_packages_apps_Phone" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="carz2/android_packages_apps_Settings" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/apps/Settings" name="carz2/android_packages_apps_Settings" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
-  <project path="packages/apps/SpareParts" name="carz2/android_packages_apps_SpareParts" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/apps/SpareParts" name="carz2/android_packages_apps_SpareParts" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="carz2/android_packages_apps_Superuser" remote="github" revision="jb" />
+  <project path="packages/apps/Superuser" name="carz2/android_packages_apps_Superuser" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="mr1-staging"/>
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="carz2/android_packages_inputmethods_LatinIME" remote="github" revision="jb-4.2_r1" />
+  <project path="packages/inputmethods/LatinIME" name="carz2/android_packages_inputmethods_LatinIME" remote="github" revision="jb-mr1-release" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -308,7 +308,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="carz2/android_prebuilt" remote="github" revision="jb-4.2_r1" />
+  <project path="prebuilt" name="carz2/android_prebuilt" remote="github" revision="jb-mr1-release" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
@@ -334,12 +334,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="carz2/android_system_core" remote="github" revision="jb-4.2_r1" />
-  <project path="system/extras" name="carz2/android_system_extras" remote="github" revision="jb-4.2_r1" />
+  <project path="system/core" name="carz2/android_system_core" remote="github" revision="jb-mr1-release" />
+  <project path="system/extras" name="carz2/android_system_extras" remote="github" revision="jb-mr1-release" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/su" name="carz2/android_system_su" remote="github" revision="jb-4.2_r1" />
+  <project path="system/su" name="carz2/android_system_su" remote="github" revision="jb-mr1-release" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
@@ -348,6 +348,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="carz2/themes-platform-vendor-tmobile-providers-ThemeManager" remote="github" revision="jb" />
   <project path="vendor/tmobile/products/themes" name="carz2/themes-platform-vendor-tmobile-products-themes" remote="github" revision="jb" />
 
-  <project path="android" name="carz2/android" remote="github" revision="jb-4.2_r1" />
+  <project path="android" name="carz2/android" remote="github" revision="jb-4.2.1_r1" />
 
 </manifest>
