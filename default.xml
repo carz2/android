@@ -266,7 +266,7 @@
   <project path="packages/apps/Contacts" name="carz2/android_packages_apps_Contacts" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/DeskClock" name="carz2/android_packages_apps_DeskClock" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/DSPManager" name="carz2/android_packages_apps_DSPManager" remote="github" revision="jb-mr1-release" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="carz2/android_packages_apps_Email" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FileManager" name="carz2/android_packages_apps_FileManager" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
