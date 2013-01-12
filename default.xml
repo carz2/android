@@ -21,7 +21,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="carz2/android_platform_dalvik" remote="github" revision="jb-mr1-release"/>
-  <project path="development" name="platform/development" />
+  <project path="development" name="carz2/android_development" remote="github" revision="jb-mr1-release" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
   <project path="device/common" name="device/common" />
@@ -104,7 +104,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" />
+  <project path="external/javasqlite" name="carz2/android_external_javasqlite" remote="github" revision="jb-mr1-release" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
@@ -270,7 +270,7 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FileManager" name="carz2/android_packages_apps_FileManager" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery2" name="carz2/android_packages_apps_Gallery2" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="carz2/android_packages_apps_Launcher2" remote="github" revision="jb-mr1-release" />
@@ -344,7 +344,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="sdk" name="platform/sdk" />
+  <project path="sdk" name="carz2/android_sdk" remote="github" revision="jb-mr1-release" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="carz2/android_system_core" remote="github" revision="jb-mr1-release" />
   <project path="system/extras" name="carz2/android_system_extras" remote="github" revision="jb-mr1-release" />
