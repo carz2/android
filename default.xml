@@ -154,7 +154,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="mr1-staging"/>
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="cm-10.1"/>
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
