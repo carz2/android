@@ -256,6 +256,7 @@
   <project path="packages/apps/Camera" name="carz2/android_packages_apps_Camera" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Contacts" name="carz2/android_packages_apps_Contacts" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/DeskClock" name="carz2/android_packages_apps_DeskClock" remote="github" revision="jb-mr1-release" />
   <project path="packages/apps/DSPManager" name="carz2/android_packages_apps_DSPManager" remote="github" revision="jb-mr1-release" />
