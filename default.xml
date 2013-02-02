@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="refs/tags/android-4.2.1_r1"
+  <default revision="refs/heads/jb-mr1-release"
            remote="aosp"
            sync-j="4" />
 
