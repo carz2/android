@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="refs/heads/jb-mr1-release"
+  <default revision="refs/heads/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -354,6 +354,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="carz2/themes-platform-vendor-tmobile-providers-ThemeManager" remote="github" revision="jb-mr1-release" />
   <project path="vendor/tmobile/products/themes" name="carz2/themes-platform-vendor-tmobile-products-themes" remote="github" revision="jb-mr1-release" />
 
-  <project path="android" name="carz2/android" remote="github" revision="jb-4.2.1_r1" />
+  <project path="android" name="carz2/android" remote="github" revision="jb-mr1-release" />
 
 </manifest>
