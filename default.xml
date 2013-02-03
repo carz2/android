@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <default revision="refs/heads/jb-mr1-release"
+  <default revision="refs/tags/android-4.2.1_r1.2"
            remote="aosp"
            sync-j="4" />
 
@@ -49,7 +49,7 @@
   <project path="external/bash" name="carz2/android_external_bash" remote="github" revision="jb-mr1-release" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2.1_r1_" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="carz2/android_external_busybox" remote="github" revision="jb-mr1-release"/>
@@ -114,7 +114,7 @@
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
   <project path="external/libncurses" name="carz2/android_external_libncurses" remote="github" revision="jb-mr1-release" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" revision="refs/tags/android-4.2.1_r1_" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nxp" name="carz2/android_external_libnfc-nxp" remote="github" revision="jb-mr1-release" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
