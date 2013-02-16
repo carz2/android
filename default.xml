@@ -228,7 +228,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="jb-mr1-release" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" revision="jb-mr1-release" />
   <project path="hardware/libhardware" name="carz2/android_hardware_libhardware" remote ="github" revision="jb-4.2.2_r1" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="jb-mr1-release" />
