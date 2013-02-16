@@ -232,18 +232,18 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="carz2/android_hardware_libhardware" remote ="github" revision="jb-4.2.2_r1" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="jb-mr1-release" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" revision="jb-mr1-release" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" revision="jb-mr1-release" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="jb-mr1-release" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="jb-mr1-release" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="jb-mr1-release" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="jb-mr1-release" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="jb-mr1-release" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="jb-mr1-release" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" revision="jb-mr1-release" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="jb-mr1-release" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="jb-mr1-release" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
