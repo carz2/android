@@ -318,6 +318,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
+  <project path="prebuilt" name="carz2/android_prebuilt" remote="github" revision="jb-mr1-release" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
@@ -350,8 +351,8 @@
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/su" name="carz2/android_system_su" remote="github" revision="jb-mr1-release" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
-  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
-  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,tools" />
+  <project path="tools/build" name="platform/tools/build" revision="jb-mr1-release" />
+  <project path="tools/motodev" name="platform/tools/motodev" revision="jb-mr1-release" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="carz2/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb-mr1-release" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="carz2/themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="github" revision="jb-mr1-release" />
   <project path="vendor/tmobile/providers/ThemeManager" name="carz2/themes-platform-vendor-tmobile-providers-ThemeManager" remote="github" revision="jb-mr1-release" />
