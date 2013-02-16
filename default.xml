@@ -244,7 +244,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="jb-mr1-release" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="jb-mr1-release" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="jb-mr1-release" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
