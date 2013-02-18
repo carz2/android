@@ -221,7 +221,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="carz2/android_frameworks_opt_telephony" remote="github" revision="jb-4.2.2_r1" />
-  <project path="frameworks/opt/vcard" name="carz2/android_frameworks/opt/vcard" remote="github" revision="jb-4.2.2_r1" />
+  <project path="frameworks/opt/vcard" name="carz2/android_frameworks_opt_vcard" remote="github" revision="jb-4.2.2_r1" />
   <project path="frameworks/rs" name="carz2/android_frameworks_rs.git" remote="github" revision="jb-4.2.2_r1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
