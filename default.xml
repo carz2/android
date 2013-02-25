@@ -255,7 +255,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="carz2/android_packages_apps_Bluetooth" remote="github" revision="jb-4.2.2_r1" />
   <project path="packages/apps/Browser" name="carz2/android_packages_apps_Browser" remote="github" revision="jb-4.2.2_r1" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calculator" name="carz2/android_packages_apps_Calculator" remote="github" revision="jb-4.2.2_r1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="carz2/android_packages_apps_Camera" remote="github" revision="jb-4.2.2_r1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
