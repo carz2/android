@@ -227,28 +227,28 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="jb-mr1-release" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="jb-mr1-release" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="carz2/android_hardware_libhardware" remote ="github" revision="jb-4.2.2_r1" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="jb-mr1-release" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" revision="jb-mr1-release" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" revision="jb-mr1-release" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="jb-mr1-release" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="jb-mr1-release" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="jb-mr1-release" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="jb-mr1-release" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="jb-mr1-release" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="jb-mr1-release" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" revision="jb-mr1-release" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="jb-mr1-release" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="jb-mr1-release" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="jb-mr1-release" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="jb-mr1-release" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="jb-mr1-release" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="jb-mr1-release" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="jb-mr1-release" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="carz2/android_libcore" remote="github" revision="jb-4.2.2_r1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
