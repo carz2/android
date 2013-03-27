@@ -192,7 +192,7 @@
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/vim" name="carz2/android_external_vim" remote="github" revision="jb-4.2.2_r1" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="carz2/android_external_webkit" remote="github" revision="jb-4.2.2_r1" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
