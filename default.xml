@@ -19,12 +19,12 @@
   <project path="android" name="carz2/android" remote="github" revision="jb-4.2.2_r1" />
 
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="carz2/android_bionic" remote="github" revision="jb-4.2.2_r1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="carz2/android_platform_dalvik" remote="github" revision="jb-4.2.2_r1"/>
+  <project path="dalvik" name="carz2/android_platform_dalvik" remote="github" revision="jb-4.2.2_r1" />
   <project path="development" name="carz2/android_development" remote="github" revision="jb-4.2.2_r1" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
