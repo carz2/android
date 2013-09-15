@@ -371,7 +371,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="sdk" name="carz2/android_sdk" remote="github" revision="jb-4.2.2_r1" groups="pdk" />
+  <project path="sdk" name="carz2/android_sdk" remote="github" revision="jb-4.3_r2.2" groups="pdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
   <project path="system/core" name="carz2/android_system_core" remote="github" revision="jb-4.3_r2.2" groups="pdk" />
   <project path="system/extras" name="carz2/android_system_extras" remote="github" revision="jb-4.3_r2.2" groups="pdk" />
